@@ -1,0 +1,28 @@
+(Глобальные настройки инициализации)
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+
+(Проверка настроек)
+git config --list
+
+(Помощь)
+git help your-query 
+(your-query example: commit)
+
+(Инициализация в директории проекта)
+git init
+
+(Проверка статуса обновлений проекта)
+git status
+
+(Добавление обновлений (всех))
+git add .
+
+(Коммит)
+git commit -m "Your description commit"
+
+(Подключение к удаленному репозиторию на GitHub)
+git remote add origin https://github.com/Javados/Start-Git.git
+
+(Отправка всех коммитов на удаленный репозиторий)
+git push -u origin master
