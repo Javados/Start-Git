@@ -26,3 +26,6 @@ git remote add origin https://github.com/Javados/Start-Git.git
 
 (Отправка всех коммитов на удаленный репозиторий)
 git push -u origin master
+
+(Скачать удаленный репозиторий)
+git pull
